@@ -16,12 +16,12 @@ function App() {
       </GridItem>
 
       <Show above="lg">
-        <GridItem area="aside" bg="gold">
+        <GridItem area="aside">
           <GenreList />
         </GridItem>
       </Show>
 
-      <GridItem area="main" alignItems={"center"}>
+      <GridItem area="main">
         <GameGrid />
       </GridItem>
     </Grid>
