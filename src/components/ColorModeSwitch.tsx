@@ -10,7 +10,7 @@ const ColorModeSwitch = () => {
         isChecked={colorMode === "dark"}
         onChange={toggleColorMode}
       />
-      <Text>{colorMode.toUpperCase()} MODE</Text>
+      <Text whiteSpace={"nowrap"}>{colorMode.toUpperCase()} MODE</Text>
     </HStack>
   );
 };

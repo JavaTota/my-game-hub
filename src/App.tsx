@@ -42,7 +42,7 @@ function App() {
       </Show>
 
       <GridItem area="main">
-        <HStack spacing={5} paddingLeft={10}>
+        <HStack spacing={2} paddingLeft={4} paddingRight={4}>
           <PlatformSelector
             selectedPlatform={gameQuery.platform}
             onSelectPlatform={(platform) =>
