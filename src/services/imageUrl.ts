@@ -1,7 +1,9 @@
 //to download smaller images, we take the url of the pic and insert the crop after 'media/'
 
+import noImage from "../assets/no-image-placeholder-6f3882e0.webp";
+
 const getCroppedImageUrl = (url: string) => {
-  if (!url) return "";
+  if (!url) return noImage;
 
   const target = "media/";
 
